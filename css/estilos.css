@@ -1,0 +1,530 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  color: black;
+} 
+a:hover {
+  color: #353D40;
+  text-decoration: none;
+}
+body{
+  background-color: black;
+}
+.logo{
+  height: 150px;
+}
+.link {
+  color: black;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 5px;
+  padding: 5px;
+}
+.img__uno{
+  height: 450px;
+  width: 100%;
+}
+.img__dos {
+  height: 450px;
+  width: 100%; }
+.img__tres{
+  height: 450px;
+  width: 100%;
+}
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.modificando__slider {
+  margin-bottom: 50px; }
+
+body {
+  overflow-x: hidden; 
+}
+
+.parallax__dos {
+  background-image: url("../assets/img/imagen6.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px;
+  border: 8px groove;
+  border-color: #EAF205; }
+
+.aparecer {
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 10px; }
+
+.parrafo__index {
+  color: white;
+  font-size: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  text-transform: uppercase; 
+  padding: 10px;
+  margin: 10px;
+}
+.logo__footer{
+  color: black;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  text-transform: uppercase; 
+}
+.parrafo__servicios{
+  color: white;
+  font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-style: bold;
+  text-transform: uppercase; 
+  padding: 10px;
+  margin: 10px;
+
+}
+
+.modificando__footer {
+  background-color: #FFE849;
+  padding: 50px;
+  margin-top: 50px; }
+
+h3 {
+  color: black; }
+
+.logoFooter {
+  color: black;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; }
+
+.parrafo__nosotros {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-align: left;
+  margin: 15px; }
+
+.texto__servicios {
+  color: white;
+  font-size: 19px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 5px;
+  padding: 5px; }
+
+.quienes__somos {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: justify; }
+
+.contactoFooter {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 5px;
+  padding: 5px; }
+
+ul {
+  list-style: none;
+  font-size: 0; }
+
+li {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  font-size: 14px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block;
+  background-color: #FAF566; }
+
+table tr th {
+  color: red;
+  background-color: black; }
+
+.border {
+  border: 1px solid black;
+  background-image: linear-gradient(to bottom, #F2CB05, #FFE849); }
+
+.footerBG {
+  background-image: linear-gradient(to bottom, #F2CB05, #FFE849); }
+
+.transition {
+  transition: all 1s; }
+
+.transition:hover {
+  transform: translateY(-20px); }
+
+input {
+  display: block;
+  font-size: 18px;
+  transition: all 1s;
+  height: 25px; }
+
+input:focus {
+  font-size: 30px;
+  width: 20%; }
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateX(20px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+.animacion {
+  animation-name: movimiento;
+  animation-duration: 2s;
+  animation-iteration-count: 3; }
+
+.texto__footer {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left; }
+
+.img__dos {
+  height: 450px;
+  width: 100%; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.modificando__slider {
+  margin-bottom: 50px; }
+
+.w-100 {
+  width: 100% !important; }
+
+body {
+  overflow-x: hidden; }
+
+.parallax__dos {
+  background-image: url("../assets/img/imagen6.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px;
+  border: 8px groove;
+  border-color: #EAF205; }
+
+.transitionSubmenu {
+  width: 100px;
+  height: 100px;
+  transition: all 2s; }
+
+.transitionSubmenu:hover {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  color: white;
+  background-color: black; }
+
+.aparecer {
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 10px; }
+
+.img__dos {
+  height: 450px;
+  width: 100%; }
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.modificando__slider {
+  margin-bottom: 50px; }
+
+.w-100 {
+  width: 100% !important; }
+
+body {
+  overflow-x: hidden; }
+.parallax__dos {
+  background-image: url("../assets/img/imagen6.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 30px;
+  margin-bottom: 50px;
+  border: 8px groove;
+  border-color: #EAF205; }
+
+.transitionSubmenu {
+  width: 100px;
+  height: 100px;
+  transition: all 2s; }
+
+.transitionSubmenu:hover {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+  color: white;
+  background-color: black; }
+
+.aparecer {
+  animation-duration: 3s;
+  animation-name: aparecer; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  font-size: 18px;
+  position: relative;
+  top: 10px; }
+
+.modificando__footer {
+  background-color: #FFE849;
+  padding: 50px;
+  margin-top: 50px; }
+
+h3 {
+  color: black; }
+
+.logoFooter {
+  color: black;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600; }
+
+.parrafo__nosotros {
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-align: left;
+  margin: 15px; }
+
+.quienes__somos {
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  font-size: 50px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: justify; }
+
+.textoContacto {
+  color: white;
+  font-size: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: justify; }
+
+.formulario{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-around;
+}
+
+.formulario__contacto{
+  color: white;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.contactoFooter {
+  color: black;
+  font-size: 30px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin: 5px;
+  padding: 5px; 
+  }
+
+.submenu {
+  list-style-type: none;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+  position: relative;
+  padding: 15px;
+  margin: 15px; }
+
+ul {
+  list-style: none;
+  font-size: 0; }
+
+li {
+  display: inline-block;
+  width: 15%;
+  position: relative;
+  font-size: 14px; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul ul li {
+  display: block; }
+
+ul li:hover ul {
+  display: block;
+  background-color: #FAF566; }
+
+table tr th {
+  color: red;
+  background-color: black; }
+
+.border {
+  border: 1px solid black;
+  background-image: linear-gradient(to bottom, #F2CB05, #FFE849); }
+
+.footerBG {
+  background-image: linear-gradient(to bottom, #F2CB05, #FFE849); }
+
+.transition {
+  transition: all 1s; }
+
+.transition:hover {
+  transform: translateY(-20px); }
+
+input {
+  display: block;
+  font-size: 18px;
+  transition: all 1s;
+  height: 25px; }
+
+input:focus {
+  font-size: 30px;
+  width: 20%; }
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(-20px); }
+  50% {
+    transform: translateX(20px); }
+  100% {
+    transform: translate(0px, 0px); } }
+
+.animacion {
+  animation-name: movimiento;
+  animation-duration: 2s;
+  animation-iteration-count: 3; }
+
+.texto__footer {
+  color: black;
+  font-size: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left; }
+
+header {
+  displey: flex;
+  flex-direction: row; }
+
+.navbar-nav {
+  display: flex;
+  color: black;
+  list-style: none;
+  justify-content: space-around; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: black;
+  font-size: 25px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: left;
+  margin: 5px;
+  padding: 5px; }
+
+.flexParrafo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end; }
+
+/*.boton{
+  color: black;
+  background-color: #F2CB05;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 15px;
+  border: 5px solid black;
+  padding-top:15px;
+  padding-bottom:15px;
+  padding-left:40px;
+  padding-right:40px;
+  }*/
