@@ -157,15 +157,6 @@ h3 {
   margin: 5px;
   padding: 5px; }
 
-.quienes__somos {
-  color: black;
-  background-color: rgba(255, 255, 255, 0.5);
-  font-size: 50px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 600;
-  text-transform: capitalize;
-  text-align: justify; }
-
 .contactoFooter {
   color: black;
   font-size: 30px;
@@ -212,16 +203,6 @@ table tr th {
 
 .transition:hover {
   transform: translateY(-20px); }
-
-input {
-  display: block;
-  font-size: 18px;
-  transition: all 1s;
-  height: 25px; }
-
-input:focus {
-  font-size: 30px;
-  width: 20%; }
 
 @keyframes movimiento {
   0% {
@@ -385,7 +366,7 @@ h3 {
   color: black;
   background-color: rgba(255, 255, 255, 0.5);
   font-size: 50px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   text-align: justify; }
@@ -408,26 +389,52 @@ h3 {
   text-align: justify; 
   padding: 15px;
 }
-
 .formulario{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: flex-start;
-  justify-content: flex-start;
-  align-items: stretch;
-  padding: 30px;
-}
-
-.formulario__contacto{
-  color: white;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
-  text-align: justify;
+  text-align: justify; 
+  padding: 15px;
 }
-
+.optionContacto{
+  color: black;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 14px 18px;
+  margin: 0px 0px 15px;
+}
+.optContacto{
+  padding: 14px 18px;
+  margin: 0px 0px 15px;
+}
+.boton{
+  background: linear-gradient( -45deg , #F2CB05, #FFE849);
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: black;
+  letter-spacing: 1px;
+  font-size: 30px;
+  line-height: 60px;
+  border-radius: 40px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0);
+  position: relative;
+  transition: all linear 400ms;
+  border: none;
+}
+.btn{
+  display: flex;
+  position: relative;
+  margin-bottom: 8px;
+  padding: inherit;
+}
 .contactoFooter {
   color: black;
   font-size: 30px;
@@ -437,7 +444,22 @@ h3 {
   margin: 5px;
   padding: 5px; 
   }
-
+.copyright{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.copyr{
+  color: var(--color-text-primary);
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  padding: 30px;
+  margin: 30px;
+  text-align: center;
+}
 .submenu {
   list-style-type: none;
   text-decoration: none;
@@ -489,16 +511,6 @@ table tr th {
 .transition:hover {
   transform: translateY(-20px); }
 
-input {
-  display: block;
-  font-size: 18px;
-  transition: all 1s;
-  height: 25px; }
-
-input:focus {
-  font-size: 30px;
-  width: 20%; }
-
 @keyframes movimiento {
   0% {
     transform: translateY(-20px); }
@@ -546,16 +558,3 @@ header {
   flex-wrap: wrap;
   justify-content: flex-end; }
 
-/*.boton{
-  color: black;
-  background-color: #F2CB05;
-  font-family: 'Poppins', sans-serif;
-  font-size: 25px;
-  font-weight: 600;
-  border-radius: 15px;
-  border: 5px solid black;
-  padding-top:15px;
-  padding-bottom:15px;
-  padding-left:40px;
-  padding-right:40px;
-  }*/
