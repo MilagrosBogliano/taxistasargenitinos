@@ -566,6 +566,7 @@ header {
   @media only screen and (max-width: 768px){
     form{
       display: flex;
+      width: auto;
     }
     .optContacto{
       display: flex;
