@@ -284,10 +284,6 @@ table tr th {
   margin-bottom: 50px;
 }
 
-.w-100 {
-  width: 100% !important;
-}
-
 body {
   overflow-x: hidden;
 }
@@ -641,11 +637,6 @@ table tr th {
   text-align: left;
 }
 
-header {
-  displey: flex;
-  flex-direction: row;
-}
-
 .navbar-nav {
   display: flex;
   color: black;
@@ -679,21 +670,22 @@ header {
 }
 
 @media only screen and (max-width: 768px) {
+  .parallax{
+    width: 100%;
+    height: auto;
+  }
   form {
-    display: flex;
-    width: auto;
+    width: 100%;
   }
 
   .optContacto {
     display: flex;
     width: 100%;
-    font-size: 10px;
   }
 
   .optionContacto {
     display: flex;
     width: 100%;
-    font-size: 10px;
   }
 }
 
