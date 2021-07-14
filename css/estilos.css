@@ -670,10 +670,11 @@ table tr th {
 }
 
 @media only screen and (max-width: 768px) {
-  .parallax{
+  .parallax {
     width: 100%;
     height: auto;
   }
+
   form {
     width: 100%;
   }
@@ -691,6 +692,11 @@ table tr th {
 
 /*Vista tablet*/
 @media only screen and (min-width:769px) and (max-width: 1100px) {
+  .parallax {
+    width: 100%;
+    height: auto;
+  }
+
   form {
     display: flex;
   }
