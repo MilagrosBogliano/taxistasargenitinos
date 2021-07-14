@@ -688,6 +688,10 @@ table tr th {
     display: flex;
     width: 100%;
   }
+  textarea{
+    width: 100%;
+    height: auto;
+  }
 }
 
 /*Vista tablet*/
