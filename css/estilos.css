@@ -138,7 +138,7 @@ li {
   color: white;
   font-size: 30px;
   font-family: 'Quicksand', sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   font-style: bold;
   text-transform: uppercase;
   padding: 10px;
@@ -156,17 +156,10 @@ h3 {
   color: black;
 }
 
-.logoFooter {
-  color: black;
-  font-size: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-}
-
 .parrafo__nosotros {
   color: white;
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-align: left;
   margin: 15px;
@@ -174,9 +167,9 @@ h3 {
 
 .texto__servicios {
   color: white;
-  font-size: 19px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 600;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
   text-transform: capitalize;
   text-align: left;
   margin: 5px;
@@ -186,7 +179,7 @@ h3 {
 .contactoFooter {
   color: black;
   font-size: 30px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   margin: 5px;
@@ -264,7 +257,7 @@ table tr th {
 .texto__footer {
   color: black;
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   text-align: left;
@@ -352,10 +345,6 @@ li {
   margin-bottom: 50px;
 }
 
-.w-100 {
-  width: 100% !important;
-}
-
 body {
   overflow-x: hidden;
 }
@@ -420,17 +409,10 @@ h3 {
   color: black;
 }
 
-.logoFooter {
-  color: black;
-  font-size: 20px;
-  font-family: 'Raleway', sans-serif;
-  font-weight: 600;
-}
-
 .parrafo__nosotros {
   color: white;
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-align: left;
   margin: 15px;
@@ -521,7 +503,7 @@ h3 {
 .contactoFooter {
   color: black;
   font-size: 30px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;;
   font-weight: 600;
   text-transform: capitalize;
   margin: 5px;
@@ -546,19 +528,6 @@ h3 {
   text-align: center;
 }
 
-.submenu {
-  list-style-type: none;
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
-  font-weight: 600;
-  text-transform: capitalize;
-  text-align: center;
-  position: relative;
-  padding: 15px;
-  margin: 15px;
-}
 
 ul {
   list-style: none;
@@ -631,7 +600,7 @@ table tr th {
 .texto__footer {
   color: black;
   font-size: 20px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   text-align: left;
@@ -647,7 +616,7 @@ table tr th {
 .navbar-light .navbar-nav .nav-link {
   color: black;
   font-size: 25px;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'Poppins', sans-serif;
   font-weight: 600;
   text-transform: capitalize;
   text-align: left;
@@ -670,15 +639,22 @@ table tr th {
 }
 
 @media only screen and (max-width: 768px) {
-  *{
-    padding: 0;
-    margin: 0;
-  }
   .parallax {
     width: 100%;
     height: auto;
   }
-
+  .img__uno{
+    height: 300px;
+    width: 100%;
+  }
+  .img__dos{
+    height: 300px;
+    width: 100%;
+  }
+  .img__tres{
+    height: 300px;
+    width: 100%;
+  }
   form {
     width: 100%;
   }
@@ -709,7 +685,10 @@ table tr th {
     width: 100%;
     height: auto;
   }
-
+  .img__uno{
+    height: 450px;
+    width: 100%;
+  }
   form {
   width:100%; 
 }
