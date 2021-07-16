@@ -503,7 +503,8 @@ h3 {
 .contactoFooter {
   color: black;
   font-size: 30px;
-  font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
+  ;
   font-weight: 600;
   text-transform: capitalize;
   margin: 5px;
@@ -643,18 +644,22 @@ table tr th {
     width: 100%;
     height: auto;
   }
-  .img__uno{
-    height: 200px;
+
+  .img__uno {
+    height: 150px;
     width: 100%;
   }
-  .img__dos{
-    height: 200px;
+
+  .img__dos {
+    height: 150px;
     width: 100%;
   }
-  .img__tres{
-    height: 200px;
+
+  .img__tres {
+    height: 150px;
     width: 100%;
   }
+
   form {
     width: 100%;
   }
@@ -669,11 +674,13 @@ table tr th {
     width: 100%;
     font-size: 15px;
   }
-  textarea{
+
+  textarea {
     width: 100%;
     height: auto;
   }
-  .email{
+
+  .email {
     width: 100%;
     font-size: 16px;
   }
@@ -685,13 +692,15 @@ table tr th {
     width: 100%;
     height: auto;
   }
-  .img__uno{
+
+  .img__uno {
     height: 450px;
     width: 100%;
   }
+
   form {
-  width:100%; 
-}
+    width: 100%;
+  }
 
   .optContacto {
     display: flex;
@@ -703,7 +712,8 @@ table tr th {
     width: 100%;
     font-size: 15px;
   }
-  textarea{
+
+  textarea {
     width: 100%;
     height: auto;
   }
