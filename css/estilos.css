@@ -18,7 +18,7 @@ body {
 }
 
 .logo {
-  height: 150px;
+  height: 140px;
 }
 
 .link {
@@ -520,6 +520,7 @@ h3 {
 }
 
 .copyr {
+  display: flex;
   color: var(--color-text-primary);
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
@@ -527,6 +528,7 @@ h3 {
   padding: 30px;
   margin: 30px;
   text-align: center;
+  justify-content: space-around;
 }
 
 

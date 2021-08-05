@@ -58,7 +58,7 @@
 	</section>
 	<section>
 		<article class="parallax">
-			<form method="POST" action="enviar.php"> 
+			<form action="enviar.php" method="POST"> 
 				<div class="row">
 					<div class="col-md-4">
 						<label class="formulario">Motivo</label>
@@ -77,21 +77,21 @@
 						<label class="formulario">Nombre</label>
 						<br>
 						<span class="formContactoNombre">
-							<input type="text" name="nombre" value size="35" class="optContacto">
+							<input type="text" name="nombre" value size="35" class="optContacto" required>
 						</span>
 					</div>
 					<div class="col-md-4">
 						<label class="formulario"> Apellido</label>
 						<br>
 						<span>
-							<input type="text" name="apellido" values size="35" class="optContacto">
+							<input type="text" name="apellido" values size="35" class="optContacto" required>
 						</span>
 					</div>
 					<div class="col-md-4">
 						<label class="formulario">Email</label>
 						<br>
 						<span>
-							<input type="email" name="email" value size="35" class="optContacto">
+							<input type="email" name="email" value size="35" class="optContacto" required>
 						</span>
 					</div>
 					<div class="col-md-4">
@@ -105,7 +105,7 @@
 						<label class="formulario">Comentario</label>
 						<br>
 						<span>
-							<textarea type="text" name="comentario" cols="60" rows="6">
+							<textarea type="text" name="comentario" cols="60" rows="6" required>
 							</textarea>
 						</span>
 					</div>
